@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(248, 249, 245);
+}
+
+
+a button{
+    background-color: rgb(226, 226, 226);
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    width: 110px;
+    height: 60px;
+    border: solid black 2px;
+    border-radius: 20px;
+    margin-top: 60px;
+    text-align:center;
+}
+
+header{
+    display: flex;
+    background-color: rgb(58, 107, 84);
+    border-radius: 20px;
+    width: 1200px;
+    height:140px;
+    margin-top: 30px;
+    margin-left: 340px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 100px;
+    
+}
+
+header p{
+    margin-left: 320px;
+    margin-top: 44px;
+    margin-right: 110px;
+    font-size: 40px;
+    color: rgb(224, 229, 233);
+}
+.banner{
+width: 1000px;
+height: 600px;
+margin-left:450px ;
+margin-top: 50px ;
+border-radius:10px ;
+}
+
+.descricao{
+    width: 600px;
+    height: 280px;
+    background-color: rgb(59, 158, 112);
+    font-size:22px ;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 650px;
+    border-radius: 15px;
+    border: solid 3px black;
+    color: rgb(15, 15, 15);
+}
+.deck{
+display: flex;
+}
+
+.ex{
+    background-color: rgb(59, 158, 112);
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.ex img{
+ width: 250px;
+    padding: 30px;
+}
+.ex p{
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgb(58, 107, 84);
+    font-size: 20px;
+    display: flex;
+    
+}
+
+footer p{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.card{
+    background-color: rgb(59, 158, 112);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-bottom: 60px;
+}
+.card img{
+    width: 200px;
+    height: 150px;
+}
+.card p{
+    font-size: 20px;
+}
