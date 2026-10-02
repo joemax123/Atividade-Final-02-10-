@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
 </head>
 
 <body>
@@ -16,10 +17,11 @@
         <a href="../html/index.html"><button>Menu Principal</button></a>
         <a href="../html/serviços.html"><button>Serviços</button></a>
         <a href="../html/solicitar.html"><button>Solicitar Serviços</button></a>
+        <a href="../html/equipe.html"><button>Nossa Equipe</button></a>
 
     </header>
 
-<form action="https://formspree.io/f/valdenilson_barbosa@docente.senai.br" method="POST">
+<form action="https://formspree.io/f/valdenilson_barbosa@docente.senai.br" method="POST" class="formulario">
     <label for="nome">Nome:</label>
     <input type="text"required>
     <label for="email">Email:</label>
@@ -37,6 +39,10 @@
     <option value="">Vacinar</option>
     <option value="">Tosar</option>
 </select>
+<label for="mensagem">Mensagem:</label>
+<textarea name="" id="">
+</textarea>
+<button type="submit" onclick="aviso()">Enviar</button>
 </form>
 
 
